@@ -20,7 +20,7 @@
 
 - 5 pay lines (3 horizontal, 2 diagonal).
 
-- 5 symbols (this is arbitrary, the symbol and reel sets can be mutated on the fly and new payout coefficients derived from LP implementation.
+- 5 symbols (this is arbitrary, the symbol and reel sets can be mutated on the fly and new payout coefficients derived from LP implementation).
 
 - RTP @ 0.9 which can also be adjusted and new coefficients derived.
 
