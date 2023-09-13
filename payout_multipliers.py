@@ -25,11 +25,11 @@ def machine_coefficients(symbols, absolute_probability):
     # define constraints
     lp += lpSum([decision_vars[i] * absolute_probability[symbols[i]] for i in range(len(symbols))]) <= rtp_target
 
-    # payout multiplier must be at least 0.1 for each symbol
+    # payout multiplier must be at least 0.9 for each symbol
     for i in range(len(symbols)):
         lp += decision_vars[i] >= 0.9
 
-    # payout multiplier must be at least 1.1x the previous symbol's payout multiplier
+    # payout multiplier must be at least 1.3x the previous symbol's payout multiplier
     for i in range(1, len(symbols)):
         lp += decision_vars[i] >= decision_vars[i - 1] * 1.3
 
