@@ -42,7 +42,7 @@ $r_1=\{A,A,A,A,B,B,C,D,Z\}$
 
 $r_2=\{A,A,A,A,B,B,C,C,D,D,Z\}$
 
-$r_3=\{A,A,B,C,C,D,Z\}$
+$r_3=\{A,A,B,B,C,C,D,Z\}$
 
 $k_{in}=number\ of\ symbol\ s_n\ on\ reel\ r_i$
 
