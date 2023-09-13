@@ -32,17 +32,17 @@
 
 $N=number\ of\ symbols$
 
-$S:=set\ of\ symbols\ s_n=\{A,B,C,D,Z\},\ n\in\{1,...,N\}$
+$S:=set\ of\ symbols\ s_n=\{A,B,C,D,Z\},\ n\in {1,...,N}$
 
 
 
-$R:=set\ of\ reels\ r_i,\ i\in\{1,2,3\}$
+$R:=set\ of\ reels\ r_i,\ i\in {1,2,3}$
 
-$r_1=\{A,A,A,A,B,B,C,D,Z\}$
+$r_1={A,A,A,A,B,B,C,D,Z}$
 
-$r_2=\{A,A,A,A,B,B,C,C,D,D,Z\}$
+$r_2={A,A,A,A,B,B,C,C,D,D,Z}$
 
-$r_3=\{A,A,B,C,C,D,Z\}$
+$r_3={A,A,B,C,C,D,Z}$
 
 $k_{in}=number\ of\ symbol\ s_n\ on\ reel\ r_i$
 
@@ -70,11 +70,11 @@ $RTP=0.9$
 
 **Derive $C$ from LP**
 
-$max:\sum^5_{n=1}c_n$
+$max:\sum\limits^5_{n=1}c_n$
 
 $s.t.$
 
-$\sum^5_{n=1}c_na_n\leq RTP$
+$\sum\limits^5_{n=1}c_na_n\leq RTP$
 
 $c_n\geq 0.8,\ n=1,...,5$
 
