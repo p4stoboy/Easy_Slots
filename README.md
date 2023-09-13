@@ -1,4 +1,4 @@
-#### Python slot Machine implementation with linear program derived payout coefficients
+#### Python slot machine implementation with linear program derived payout coefficients
 
 ###### by Oscar Harris
 
@@ -32,17 +32,17 @@
 
 $N=number\ of\ symbols$
 
-$S:=set\ of\ symbols\ s_n=\{A,B,C,D,Z\},\ n\in {1,...,N}$
+$S:=set\ of\ symbols\ s_n=\{A,B,C,D,Z\},\ n\in\{1,...,N\}$
 
 
 
-$R:=set\ of\ reels\ r_i,\ i\in {1,2,3}$
+$R:=set\ of\ reels\ r_i,\ i\in\{1,2,3\}$
 
-$r_1={A,A,A,A,B,B,C,D,Z}$
+$r_1=\{A,A,A,A,B,B,C,D,Z\}$
 
-$r_2={A,A,A,A,B,B,C,C,D,D,Z}$
+$r_2=\{A,A,A,A,B,B,C,C,D,D,Z\}$
 
-$r_3={A,A,B,C,C,D,Z}$
+$r_3=\{A,A,B,C,C,D,Z\}$
 
 $k_{in}=number\ of\ symbol\ s_n\ on\ reel\ r_i$
 
