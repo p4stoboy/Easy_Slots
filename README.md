@@ -82,7 +82,7 @@ $c_n\geq \frac{13}{10}c_{n-1},\ n=2,...,5$
 
 
 
-The bottom two constraints are fairly arbitrary, they exist purely to ensure that we don't end up with 4 symbols which have payout multipliers $<1$ and one huge one, and also to ensure the multiplier increases as the chance of win decreases.
+The values in the bottom 2 constraints are chosen arbitrarily, they exist purely to ensure that we don't end up with 4 symbols which have payout multipliers $<1$ and one huge one, and also to ensure the multiplier increases as the chance of win decreases.
 
 This implementation allows us to change the number of symbols and state of each reel haphazardly without having to manually adjust the win multipliers.
 
