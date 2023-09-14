@@ -10,7 +10,7 @@
 
 **Testing RTP**
 
-`test_rtp.py` has a threaded function (`test()` (default 100,000,000 spins)) which can be called to confirm the payout coefficients derived from the linear optimisation outlined below actually determine the RTP set against the optimisation (note: this LP is a bit basic and the RTP error margin over 100,000,000 spins is at around 1.5% currently).
+`test_rtp.py` has a threaded function (`test()` (default 100,000,000 spins)) which can be called to confirm the payout coefficients derived from the linear optimisation outlined below actually determine the RTP set against the optimisation (note: this LP is a bit basic and the RTP error margin over 100,000,000 spins is at around +1.5% currently due to not considering multiple lines against one spin).
 
 
 
@@ -56,7 +56,7 @@ $p_n=\frac{k_{1n}k_{2n}k_{3n}}{l_1l_2l_3}$
 
 
 
-$A:=set\ of\ absolute\ probabilities\ a_n\ of\ any\ given\ symbol\ s_n\ paying\ across\ all\ lines$
+$A:=set\ of\ absolute\ probabilities\ a_n\ of\ any\ given\ symbol\ s_n\ paying\ across\ at\ least\ 1\ line$
 
 $a_n=1-(1-p_n)^5$
 
