@@ -5,7 +5,7 @@ from pulp import *
 # Linear program to calculate the payout coefficients based on currently set reel states
 # coefficients calculated against an arbitrary target payout %
 
-rtp_target = 0.90
+rtp_target = 0.9
 
 
 def machine_coefficients(symbols, absolute_probability):

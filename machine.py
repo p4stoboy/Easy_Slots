@@ -67,7 +67,8 @@ def spin(bet=1):
     wins = hits(board_state)
     # calculate payout
     payout = sum([bet * payout_multipliers[win] for win in wins])
-
+    # print(board_state)
+    # print(f"payout: {payout}")
     return payout
 
 
@@ -86,3 +87,5 @@ def hits(board):
     if board[0][2] == board[1][1] == board[2][0]:
         hit_symbols.append(board[0][2])
     return hit_symbols
+
+spin()

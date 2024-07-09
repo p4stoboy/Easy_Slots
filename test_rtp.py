@@ -17,7 +17,7 @@ def test(iters = 100000000):
     return payout
 
 # normal test
-def test2(iters = 100000, _seed=50):
+def test2(iters = 100000, _seed=51):
     seed(_seed)
     payout = 0
     for i in range(iters):
